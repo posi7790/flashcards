@@ -4,11 +4,15 @@ const expect = chai.expect;
 const Card = require('../src/Card');
 const Turn = require('../src/Turn');
 
-describe('Turn', () => {
+var card, turn1, turn2;
 
-  const card = new Card(1, 'What allows you to define a set of related information using key-value pairs?', ['object', 'array', 'function'], 'object');
-  const turn1 = new Turn('array', card);
-  const turn2 = new Turn('object', card);
+beforeEach(() => {
+  card = new Card(1, 'What allows you to define a set of related information using key-value pairs?', ['object', 'array', 'function'], 'object');
+  turn1 = new Turn('array', card);
+  turn2 = new Turn('object', card);
+})
+
+describe('Turn', () => {
 
   it('should be a function', () => {
     expect(Turn).to.be.a('function');

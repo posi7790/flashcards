@@ -11,7 +11,8 @@ describe('Deck', () => {
   });
 
   it('should be a instance of the class Deck', () => {
-
+    const deck = new Deck();
+    expect(deck).to.be.an.instanceof(Deck);
   })
 
 });

@@ -15,7 +15,9 @@ beforeEach(() => {
   deck = new Deck([card1, card2, card3]);
 
   round = new Round(deck);
+})
 
+afterEach(() => {
   round.turn = 0;
 })
 

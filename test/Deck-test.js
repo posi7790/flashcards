@@ -20,6 +20,7 @@ describe('Deck', () => {
     const deck = new Deck();
     expect(deck).to.be.an.instanceof(Deck);
   })
+
   it('should be able to add cards to deck', () => {
     expect(deck.cards).to.deep.equal([card1, card2, card3]);
   });

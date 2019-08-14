@@ -4,6 +4,8 @@
 
 FlashCards is an introductory project in Javascript to OOP and TDD programming that provides the user with a flash card game in their terminal. The idea is that from a dataset of cards a flash card game can be run in the terminal using node.js.
 
+---
+
 ## Setup
 
 Clone down the forked repo (from your GitHub):
@@ -20,6 +22,10 @@ npm install
 
 To verify that it is setup correctly, run `npm test` in your terminal. 
 
+---
+
+## Playing the Game
+
 Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
 
 ```bash
@@ -28,6 +34,8 @@ Node server running on port 3000
 
 When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
 
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
+![flash cards example gif](https://github.com/posi7790/flashcards/blob/master/images/start_game.gif)
+
+![flash cards example gif](https://github.com/posi7790/flashcards/blob/master/images/end_game.gif)
 
 ---

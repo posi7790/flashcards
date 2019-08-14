@@ -36,6 +36,6 @@ describe('Game', () => {
 
   it('should keep track of current round', () => {
     game.start();
-    expect(game.currentRound).to.deep.equal(round)
+    expect(game.currentRound).to.deep.equal(round);
   });
 });
